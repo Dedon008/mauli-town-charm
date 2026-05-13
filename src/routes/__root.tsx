@@ -76,11 +76,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Mauli Town 36 — Premium Plots in Nagpur from ₹2,300/sq.ft." },
       { name: "description", content: "Mauli Town 36, Nagpur — MahaRERA approved plots starting at ₹2,300/sq.ft. Clear titles, prime connectivity, world-class amenities. Book your site visit today." },
       { name: "author", content: "Mauli Town 36" },
-      { property: "og:title", content: "Mauli Town 36 — Premium Plots in Nagpur" },
-      { property: "og:description", content: "MahaRERA approved plots from ₹2,300/sq.ft. Book a free site visit." },
+      { property: "og:title", content: "Mauli Town 36 — Premium Plots in Nagpur from ₹2,300/sq.ft." },
+      { property: "og:description", content: "Mauli Town 36, Nagpur — MahaRERA approved plots starting at ₹2,300/sq.ft. Clear titles, prime connectivity, world-class amenities. Book your site visit today." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Mauli Town 36 — Premium Plots in Nagpur from ₹2,300/sq.ft." },
+      { name: "twitter:description", content: "Mauli Town 36, Nagpur — MahaRERA approved plots starting at ₹2,300/sq.ft. Clear titles, prime connectivity, world-class amenities. Book your site visit today." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a9a1a774-cdfb-4efe-89b5-cf5d5d0bc357" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a9a1a774-cdfb-4efe-89b5-cf5d5d0bc357" },
     ],
     links: [
       {
